@@ -1,11 +1,13 @@
+package Main;
+
 import java.time.LocalDate;
 
-public class Dad extends Person{
+public class Parent extends Person{
 
     private Status workStatus;
 
 
-    public Dad(LocalDate birthdate, String name, Status workStatus) {
+    public Parent(LocalDate birthdate, String name, Status workStatus) {
         super(birthdate, name);
         this.workStatus = workStatus;
     }
